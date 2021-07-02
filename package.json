@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A restaurant page with all the contents generated dynamically with JS DOM Manipulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/invisibleopey/restaurant-page.git"
+  },
+  "author": "Abdullahi Muritala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/invisibleopey/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/invisibleopey/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.42.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
