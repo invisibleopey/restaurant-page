@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+#content {
+    display: grid;
+    gap: 2em;
+}
+/* #content {
+    text-align: center;
+}
+.lists {
+    list-style: none; 
+}
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+.tabs > * {
+    padding: 5px;
+    background: teal;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-right: 5px;
+} */
