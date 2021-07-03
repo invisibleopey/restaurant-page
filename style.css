@@ -7,11 +7,23 @@ body {
     padding: 0;
 }
 #content {
-    display: grid;
-    gap: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
-/* #content {
+h1 {
     text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+section {
+    text-align: center;
+    max-width: 25em;
+    justify-content: center;
+    align-self: center;
 }
 .lists {
     list-style: none; 
@@ -19,6 +31,7 @@ body {
 .tabs {
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 .tabs > * {
     padding: 5px;
@@ -26,4 +39,4 @@ body {
     color: whitesmoke;
     border-radius: 5px;
     margin-right: 5px;
-} */
+}
