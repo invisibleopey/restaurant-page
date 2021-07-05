@@ -26,10 +26,10 @@ keep you coming back for more.`;
 description.appendChild(descText);
 // Hours
 const hours = document.createElement('section');
-const hoursHeadline = document.createElement('h2');
-hoursHeadline.textContent = `Hours`;
-const hoursTxt = document.createElement('pre');
-hoursTxt.textContent = `
+const hoursHeadLine = document.createElement('h2');
+hoursHeadLine.textContent = `Hours`;
+const hoursText = document.createElement('pre');
+hoursText.textContent = `
 Sunday: 8am - 10pm
 Monday: 7am - 7pm
 Tuesday: 7am - 7pm
@@ -37,5 +37,13 @@ Wednesday: 7am - 7pm
 Thursday: 7am - 10pm
 Friday: 7am - 10pm
 Saturday: 8am - 10pm`;
-hours.append(hoursHeadline, hoursTxt);
-content.append(nav, hero, myBrandImg, description, hours);
+hours.append(hoursHeadLine, hoursText);
+//  Location
+const location = document.createElement('section');
+const locationHeadLine = document.createElement('h2');
+locationHeadLine.textContent = `Location`;
+const locationText = document.createElement('p');
+locationText.textContent = `12, Trafford Road, Salford, Greater Manchester.`;
+location.append(locationHeadLine, locationText);
+
+content.append(nav, hero, myBrandImg, description, hours, location);
