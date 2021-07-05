@@ -16,6 +16,7 @@ hero.textContent = `Invisible Afro Cuisines`;
 // Brand Image Addition
 const myBrandImg = new Image();
 myBrandImg.src = BrandImg;
+// Description
 const description = document.createElement('section');
 const descText = document.createElement('p');
 descText.textContent = `Invisible's has the best african dishes! The atmosphere 
@@ -23,5 +24,18 @@ and customer services makes you feel like you are back
 home in Nigerian, eating you native soups. We promise to 
 keep you coming back for more.`;
 description.appendChild(descText);
-
-content.append(nav, hero, myBrandImg, description);
+// Hours
+const hours = document.createElement('section');
+const hoursHeadline = document.createElement('h2');
+hoursHeadline.textContent = `Hours`;
+const hoursTxt = document.createElement('pre');
+hoursTxt.textContent = `
+Sunday: 8am - 10pm
+Monday: 7am - 7pm
+Tuesday: 7am - 7pm
+Wednesday: 7am - 7pm
+Thursday: 7am - 10pm
+Friday: 7am - 10pm
+Saturday: 8am - 10pm`;
+hours.append(hoursHeadline, hoursTxt);
+content.append(nav, hero, myBrandImg, description, hours);
