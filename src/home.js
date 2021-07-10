@@ -9,6 +9,9 @@ function loadHomePage() {
     const menu = document.createElement('li');
     const contact = document.createElement('li');
     nav.classList.add('tabs', 'lists');
+    home.setAttribute('id', 'home');
+    menu.setAttribute('id', 'menu');
+    contact.setAttribute('id', 'contact');
     home.textContent = `Home`;
     menu.textContent = `Menu`;
     contact.textContent = `Contact`;
