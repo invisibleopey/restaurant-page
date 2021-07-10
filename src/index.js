@@ -19,4 +19,6 @@ function loadTab(e) {
     if (e.srcElement.id === 'home') loadHomePage();
     if (e.srcElement.id === 'menu') loadMenuPage();
     if (e.srcElement.id === 'contact') loadContactPage();
+    const tabs = document.querySelectorAll('.tabs');
+    tabs.forEach(tab => tab.addEventListener('click', loadTab));
 }
