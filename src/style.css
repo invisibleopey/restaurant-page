@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+h1 {
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+section {
+    text-align: center;
+    max-width: 25em;
+    justify-content: center;
+    align-self: center;
+}
+.lists {
+    list-style: none; 
+}
+.tabs {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.tabs > * {
+    padding: 5px;
+    background: teal;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-right: 5px;
+}

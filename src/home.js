@@ -1,4 +1,5 @@
-import BrandImg from './seafood-okra-soup.jpg'
+import BrandImg from './seafood-okra-soup.jpg';
+import './style.css';
 
 function loadHomePage() {
     const content = document.querySelector('#content');
@@ -7,6 +8,7 @@ function loadHomePage() {
     const home = document.createElement('li');
     const menu = document.createElement('li');
     const contact = document.createElement('li');
+    nav.classList.add('tabs', 'lists');
     home.textContent = `Home`;
     menu.textContent = `Menu`;
     contact.textContent = `Contact`;
