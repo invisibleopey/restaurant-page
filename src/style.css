@@ -40,3 +40,12 @@ section {
     border-radius: 5px;
     margin-right: 5px;
 }
+.contactDiv {
+    background: rgba(215, 226, 230, 0.966);
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+.contactDiv > img {
+    width: 100%;
+}

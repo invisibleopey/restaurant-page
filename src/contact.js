@@ -20,8 +20,9 @@ function loadContactPage() {
     const container = document.createElement('div');
     const phoneNum = document.createElement('p');
     const address = document.createElement('p');
-    phoneNum.textContent = `123 456 789`;
-    address.textContent = `12, Trafford Road, Salford, Greater Manchester.`;
+    container.classList.add('contactDiv');
+    phoneNum.textContent = `📞 123 456 789`;
+    address.textContent = `🏠 12, Trafford Road, Salford, Greater Manchester.`;
     // Adding google map image
     const myAddressImg = new Image();
     myAddressImg.src = AddressImg;

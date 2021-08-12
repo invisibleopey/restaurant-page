@@ -27,7 +27,7 @@ function loadHomePage() {
     const descText = document.createElement('p');
     descText.textContent = `Invisible's has the best african dishes! The atmosphere 
     and customer services makes you feel like you are back 
-    home in Nigerian, eating you native soups. We promise to 
+    home in Lagos, eating your native soups. We promise to 
     keep you coming back for more.`;
     description.appendChild(descText);
     // Hours
