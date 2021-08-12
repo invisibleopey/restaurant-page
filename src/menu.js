@@ -1,5 +1,7 @@
 import OkroImg from './seafood-okra-soup.jpg';
 import EgusiImg from './egusi-soup.jpg';
+import OgbonoImg from './ogbono-soup.jpg';
+import NkwobiImg from './nkwobi.jpg';
 import './style.css';
 
 function loadMenuPage() {
@@ -36,8 +38,18 @@ function loadMenuPage() {
     box2.append(myEgusiImg, item2);
     // Third Item
     const box3 = document.createElement('div');
+    const myOgbonoImg = new Image();
+    myOgbonoImg.src = OgbonoImg;
+    const item3 = document.createElement('h2');
+    item3.textContent = `Ogbono Soup`;
+    box3.append(myOgbonoImg, item3);
     // Fourth Item
     const box4 = document.createElement('div');
+    const myNkwobiImg = new Image();
+    myNkwobiImg.src = NkwobiImg;
+    const item4 = document.createElement('h2');
+    item4.textContent = `Nkwobi`;
+    box4.append(myNkwobiImg, item4);
     container.append(box1, box2, box3, box4);
     content.append(nav, container);
 }
