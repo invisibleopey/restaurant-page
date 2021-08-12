@@ -2,8 +2,9 @@ import loadHomePage from './home.js';
 import loadMenuPage from './menu.js';
 import loadContactPage from './contact.js';
 
+// Render the home as default
 loadHomePage();
-// Tab switching 
+// Tab switching Logic
 const content = document.querySelector('#content');
 function clearContent(content) {
     while(content.firstChild) {

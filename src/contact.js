@@ -1,3 +1,4 @@
+import AddressImg from './address.jpg';
 import './style.css';
 
 function loadContactPage() {
@@ -15,10 +16,17 @@ function loadContactPage() {
     menu.textContent = `Menu`;
     contact.textContent = `Contact`;
     nav.append(home, menu, contact);
-    // Faux Contact Text
-    const contactTxt = document.createElement('p');
-    contactTxt.textContent = "This is the Contact, Lorem Ipsum";
-    content.append(nav, contactTxt);
+    // Contact Information
+    const container = document.createElement('div');
+    const phoneNum = document.createElement('p');
+    const address = document.createElement('p');
+    phoneNum.textContent = `123 456 789`;
+    address.textContent = `12, Trafford Road, Salford, Greater Manchester.`;
+    // Adding google map image
+    const myAddressImg = new Image();
+    myAddressImg.src = AddressImg;
+    container.append(phoneNum, address, myAddressImg);
+    content.append(nav, container);
 }
 
 export default loadContactPage;
