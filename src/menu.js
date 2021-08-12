@@ -26,28 +26,28 @@ function loadMenuPage() {
     const box1 = document.createElement('div');
     const myOkroImg = new Image();
     myOkroImg.src = OkroImg;
-    const item1 = document.createElement('h2');
+    const item1 = document.createElement('h3');
     item1.textContent = `Seafood Okro Soup`;
     box1.append(myOkroImg, item1);
     // Second Item
     const box2 = document.createElement('div');
     const myEgusiImg = new Image();
     myEgusiImg.src = EgusiImg;
-    const item2 = document.createElement('h2');
+    const item2 = document.createElement('h3');
     item2.textContent = `Egusi Soup`;
     box2.append(myEgusiImg, item2);
     // Third Item
     const box3 = document.createElement('div');
     const myOgbonoImg = new Image();
     myOgbonoImg.src = OgbonoImg;
-    const item3 = document.createElement('h2');
+    const item3 = document.createElement('h3');
     item3.textContent = `Ogbono Soup`;
     box3.append(myOgbonoImg, item3);
     // Fourth Item
     const box4 = document.createElement('div');
     const myNkwobiImg = new Image();
     myNkwobiImg.src = NkwobiImg;
-    const item4 = document.createElement('h2');
+    const item4 = document.createElement('h3');
     item4.textContent = `Nkwobi`;
     box4.append(myNkwobiImg, item4);
     container.append(box1, box2, box3, box4);

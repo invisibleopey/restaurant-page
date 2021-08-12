@@ -40,6 +40,7 @@ section {
     border-radius: 5px;
     margin-right: 5px;
 }
+/* Styling of contact page */
 .contactDiv {
     background: rgba(215, 226, 230, 0.966);
     padding: 10px;
@@ -48,4 +49,26 @@ section {
 }
 .contactDiv > img {
     width: 100%;
+}
+/* Styling of Menu page */
+.menuDiv {
+    width: 70%;
+    margin: 0 auto;
+    background: rgba(215, 226, 230, 0.966);
+    padding: 10px;
+}
+.menuDiv > div {
+    cursor: pointer;
+}
+h3 {
+    text-align: center;
+    margin-top: 0;
+}
+@media screen and (min-width: 600px) {
+    .menuDiv {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        gap: 20px
+    }
 }
