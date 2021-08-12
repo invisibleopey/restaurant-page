@@ -15,10 +15,14 @@ function loadMenuPage() {
     menu.textContent = `Menu`;
     contact.textContent = `Contact`;
     nav.append(home, menu, contact);
-    // Faux Menu Text
-    const menuTxt = document.createElement('p');
-    menuTxt.textContent = "This is the menu, Lorem Ipsum";
-    content.append(nav, menuTxt);
+    // Menu Content
+    const container = document.createElement('div');
+    const box1 = document.createElement('div');
+    const box2 = document.createElement('div');
+    const box3 = document.createElement('div');
+    const box4 = document.createElement('div');
+    container.append(box1, box2, box3, box4);
+    content.append(nav, container);
 }
 
 export default loadMenuPage;
